@@ -2072,6 +2072,7 @@ margin:5px 0 5px 0;
 	
 	.feature-box-small-icon-2 .text {
 	padding-left: 48px;
+	/* font-size: large; */
 	}
 	
 	.feature-box-small-icon-2 i {
@@ -4778,9 +4779,9 @@ background:#f8f8f8;
 .wow{visibility: hidden;}
 
 .wow{
-	color:#a49d9d;
-	font-size:x-small;
-	font-weight: bolder;
+	color:rgb(172, 166, 166);
+	font-size:large;
+	font-weight: bold;
 }
 
 
@@ -5316,7 +5317,7 @@ font-weight:300;
     .tp-caption {
         /* Adjust mobile-specific styles here */
         color: #fff;
-        font-size: 12px; /* Adjust font size as needed for mobile */
+        font-size: 25px; /* Adjust font size as needed for mobile */
         font-weight: 400; /* Adjust font weight as needed for mobile */
     }
 	.big{
