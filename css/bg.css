@@ -98,4 +98,23 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 	background-size: auto 100% !important;
 	background-attachment:scroll !important;
 	}
+	@media only screen and (max-width: 600px) {
+		/* Adjust font sizes for mobile */
+		body {
+			font-size: 16px; /* You can set your preferred font size */
+		}
+	
+		/* Adjust padding and margins for mobile */
+		section, #subheader {
+			padding: 20px; /* Adjust the padding as needed */
+			margin: 0; /* Remove any margins or set as needed */
+		}
+	}
+	@media only screen and (max-width: 600px) {
+		/* For mobile phones: */
+		[class*="col-"] {
+		  width: 100%;
+		}
+	  }
 }
+

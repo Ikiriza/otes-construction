@@ -1830,6 +1830,15 @@ margin:5px 0 5px 0;
 		line-height:100px;
 	}
 
+@media only screen and (max-width: 767px) {
+    h1.very-big {
+        /* Adjust the styles for mobile screens here */
+        font-size: 36px; /* Adjust to your preferred font size for mobile */
+        font-weight: 600; /* Adjust font weight as needed */
+        letter-spacing: -2px; /* Adjust letter spacing as needed */
+        line-height: 40px; /* Adjust line height as needed */
+    }
+}
 	
 	h2, .h2_title {
 	font-size:28px;
@@ -2139,8 +2148,7 @@ margin:5px 0 5px 0;
 	.feature-box-big-icon{
 	text-align:center;
 	}
-	.feature-box-big-icon .text{
-	}
+	
 	.feature-box-big-icon i {
 	float:none;
 	display:inline-block;
@@ -2857,6 +2865,7 @@ margin:5px 0 5px 0;
 	margin-top:20px;
 	font-family:"Montserrat";
 	font-size:14px;
+
 	text-transform:uppercase;
 	letter-spacing:2px;
 	}
@@ -4768,6 +4777,12 @@ background:#f8f8f8;
 }
 .wow{visibility: hidden;}
 
+.wow{
+	color:#a49d9d;
+	font-size:x-small;
+	font-weight: bolder;
+}
+
 
 #back-to-top {
     position: fixed;
@@ -4928,6 +4943,72 @@ color:#222;
 .timeline .tl-block .tl-message .tl-main .tl-content label{ font-weight: bold; display: inline-block; width: 80px;}
 .timeline .tl-block .tl-message .tl-main .tl-content span{}
 .timeline .tl-block .tl-message h3{text-transform:none;}
+/* Your non-mobile specific styles go here */
+
+@media only screen and (max-width: 767px) {
+    
+
+    .text-light .timeline:before {
+        /* Adjust mobile-specific styles here */
+        background: rgba(255, 255, 255, 0.1);
+    }
+	 .tl-block {
+        /* Adjust mobile-specific styles here */
+        margin-top: 5px;
+    }
+
+    .tl-block .tl-time {
+        /* Adjust mobile-specific styles here */
+        padding: 5px 10px 0px 10px;
+        margin-top: -10px;
+        border: solid 1px #ddd;
+    }
+	 .tl-block .tl-bar {
+        /* Adjust mobile-specific styles here */
+        width: 10%;
+        margin-left: 60px;
+    }
+
+ 	.tl-line {
+        /* Adjust mobile-specific styles here */
+        width: 10px;
+        height: 10px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .timeline .tl-message {
+        /* Adjust mobile-specific styles here */
+        margin-left: 110px;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+
+     .tl-block .tl-message .tl-icon {
+        /* Adjust mobile-specific styles here */
+        left: 50px;
+    }
+	@media only screen and (max-width: 767px) {
+		.timeline .tl-block .tl-message .tl-main {
+			/* Adjust mobile-specific styles here */
+			font-size: 12px;
+			padding: 5px;
+			margin-left: 17px; /* Adjust font size as needed for mobile */
+		}
+	
+		/* Add other mobile-specific styles as needed */
+	}
+
+
+    /* Add other mobile-specific styles as needed */
+	
+	}
+	.text{
+		margin-top:40px;
+	}
+	
+
+
 
 #de-arrow-nav-set{
 text-align:center;
@@ -5231,6 +5312,18 @@ color:#fff;
 font-size:14px;
 font-weight:300;
 }
+@media only screen and (max-width: 767px) {
+    .tp-caption {
+        /* Adjust mobile-specific styles here */
+        color: #fff;
+        font-size: 12px; /* Adjust font size as needed for mobile */
+        font-weight: 400; /* Adjust font weight as needed for mobile */
+    }
+	.big{
+		font-size: x-large;
+		font-weight: bold;
+	}
+}
 
 .tp-caption.teaser{
 letter-spacing:5px;
@@ -5267,6 +5360,7 @@ color:#fff;
 line-height:1.7em;
 }
 
+
 .big-black{
 font-size:52px;
 letter-spacing:-3px;
@@ -5291,6 +5385,7 @@ color:#fff;
 margin:0;
 letter-spacing:-2px;
 }
+
 
 
 .ultra-big-white{
@@ -6048,6 +6143,18 @@ background: #fff;
 	.hidden-phone{
 		display:none;
 	}
+	@media only screen and (max-width: 767px) {
+		.container .col-md-4 {
+			/* Adjust mobile-specific styles here */
+			margin-bottom: -5px; /* Adjust margin as needed for mobile */
+		}
+		.container .col-md-7{
+
+			margin-bottom: 15px;
+		}
+	
+		/* Add other mobile-specific styles as needed */
+	}
 
 	.grid_gallery .item{
 	width:100%;
@@ -6078,6 +6185,7 @@ background: #fff;
 	width: 100%;
 	
 	}
+	
 	
 	#subheader h1{
 	font-size:24px;
